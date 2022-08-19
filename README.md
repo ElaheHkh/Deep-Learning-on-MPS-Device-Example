@@ -1,7 +1,7 @@
 # Deep-Learning-on-MPS-Device-Example
 
+## get_default_device
 def get_default_device():
-
     """Pick GPU if available, else CPU"""
     
     if (torch.backends.mps.is_available()):
@@ -14,6 +14,6 @@ def get_default_device():
         
         
         
- # Availability  of MPS device in M1 Chip Macbook
+ ## Availability  of MPS device in M1 Chip Macbook
  torch.backends.mps.is_available()       
         
