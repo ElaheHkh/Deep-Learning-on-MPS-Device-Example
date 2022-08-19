@@ -2,6 +2,7 @@
 
 ## get_default_device
 def get_default_device():
+
     """Pick GPU if available, else CPU"""
     
     if (torch.backends.mps.is_available()):
